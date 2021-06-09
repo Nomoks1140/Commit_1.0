@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    border: blueviolet;
+    padding-left: 10px;
+    margin: 18px;
+    
+}
+body{
+    background:rgb(130, 130, 243);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    /*width: 70%;*/
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+header{
+    background-color: rgb(164, 237, 246);
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color:rgb(199, 241, 218);
+    border-bottom: 3px dashed black;
+} 
+nav{
+    background-color: rgb(230, 232, 241);
+    height: 50px;
+    border-bottom: 1px solid black;
+    float: left;
+    width: calc(15% - 15px);
+    border-left: 3px dashed rgb(238, 226, 226);
+    min-height: 900px;
+    padding-left: 20px;
+    padding-right: 26px;
+    padding-top: 20px;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+.clearflix{
+    clear: both;
+}
+#content{
+    float:left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: rgb(227, 238, 230);
+}
+.article{
+    color:palevioletred;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 4px solid rgb(240, 83, 83);
+}
+.article:first-child{
+    padding-top: 10px;
+    border-top: 1px solid rgb(219, 100, 100);
+}
+.article h2{
+    font-size:25px;
+}
+
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    background: rgb(34, 204, 139);
+    border-left: 3px dashed rgb(238, 226, 226);
+    min-height: 500px;
+    padding-left: 70px;
+    padding-right: 26px;
+    padding-top: 50px;
+}
+footer{
+    background: orchid;
+    color:rgb(3, 36, 36);
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}

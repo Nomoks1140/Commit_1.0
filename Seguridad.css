@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    
+}
+
+#Logo{   
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1366px;
+    background: linear-gradient(120deg, rgba(0, 48, 59, 0.986) 0%, #2980B9 100%);
+    height: 110px;
+    margin-bottom: 4px;
+}
+header{
+    
+    color: rgb(255, 255, 255);
+
+}
+#Navegacion{
+     background: linear-gradient(white 25%, peru 66%, black 96%);
+    width: 130px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    margin-left: -35px;
+    text-decoration: none;
+
+}
+nav ul li{
+    
+    text-align: center;
+    position: relative;
+    list-style:none;
+    height: 90.5px;
+    text-decoration: none;
+
+    }
+.fas {
+    position: relative;
+    color: rgb(255, 255, 255);;
+    position: center;
+    margin-top: 10px;
+    font:5px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    margin:10px;
+}
+h1{
+    text-align: center;
+    margin-top: -85px;
+    margin-left: -690px;    
+}
+
+button{
+    padding: 5px;
+    border: 0;
+    background: rgb(212, 62, 62);
+    font-size: 1.2em;
+    color: rgb(253, 253, 253);
+  width: 130px;
+  border-radius: 10px;
+  text-align: right;
+  margin-right: auto;
+
+}
+#animes{
+    background: rgba(43, 84, 94, 0.986);
+    width: 30px;
+    height: 50px;
+}
+
+
+
