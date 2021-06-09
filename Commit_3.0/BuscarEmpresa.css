@@ -1,0 +1,307 @@
+*{
+    margin: 3px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: right;
+    background:transparent;
+    bottom: auto;
+}
+header{
+    background:#1a2537;
+    margin-bottom: 1px;
+    border-radius: 15px;
+}
+h1{
+    text-align: justify;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    text-align: right;
+    margin-top: 1px;
+    color: #ffffff;
+}
+h3{
+    text-align: relative;
+    margin-top: 1px;
+    color: #1a2537;
+}
+.verticcal{
+    margin-bottom: 0px;
+}
+.fas{
+    position: right;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+form{
+    background:transparent;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90%;
+    margin-top:-675px;
+    margin-left:240px;
+    flex-direction: column;
+    justify-content: left;
+    border-top-width:-10px;
+    border-right-width:20px;
+    border-bottom-width:10px;
+    border-left-width:10px;
+    border:solid 3px;
+    font-size: 15px;
+    position: right;
+    margin-right: 200px;
+}
+input{
+    font-size: 15px;
+    margin: 10px;
+    size: 20px;
+}
+select{
+    font-size: 15px;
+}
+#menu{
+    width: 158px;
+    height: 700px;
+    position: right;
+    background: #1a2537;
+    border-radius: 15px;
+}
+#menu ul{
+    padding-top: 25px;
+
+}
+#menu ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    background:transparent;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 40px;
+    transition:backgrpund 6s margin-right 6s margin-left 6s;
+    -webkit-transition:backgrpund 6s margin-right 6s margin-left 6s;
+    -moz-transition:backgrpund 6s margin-right 6s margin-left 6s;
+    -o-transition:backgrpund 6s margin-right 6s margin-left 6s;
+}
+#menu ul a:hover{
+    margin-right: 20px;
+    margin-left: 20px;
+    background: #fff;
+    color: #1a2537;
+    border-radius: 15px;
+}
+#menu ul i:hover{
+    margin-right: 20px;
+    margin-left: 20px;
+    background: #fff;
+    color: #1a2537;
+    border-radius: 15px;
+}
+button{
+    cursor: pointer;
+    background-color:#ffffff;
+    color:#1a2537;
+    border-radius: 15px;
+    height: 35px;
+    font-size: 15px;
+    text-decoration: none;
+}
+button:hover{
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
+    font-size: 15px;
+    color: #1a2537;
+}
+.subtitulo1{
+    text-align: center;
+    color:rgb(2, 2, 2);
+    margin-left: 47%;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.subtitulo2{
+    text-align: center;
+    color:rgb(2, 2, 2);
+    margin-left: 14%;
+    margin-top: 25px;
+    font-size: 18px;
+}
+.subtitulo3{
+    text-align: center;
+    color:rgb(2, 2, 2);
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+
+.subtitulo4{
+    text-align: center;
+    color:rgb(2, 2, 2);
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 18px;
+}
+.subtitulo5{
+    text-align: center;
+    color:rgb(2, 2, 2);
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 18px;
+}
+h2{
+    text-align: center;
+    background-color:#1a2537 ;
+    color: #fff;
+    border-radius: 15px;
+    width: 1140px;
+    height: 40px;
+    margin-top: -705px;
+    margin-left: 180px;
+
+
+}
+.vacantes{
+    display: flex;
+height: 340px;
+margin-left: 180px;
+font-size:2rem;
+color: black;
+}
+
+
+
+.n-expert{
+    text-align: center;
+}
+
+.mg{
+    color: black;
+    text-align: center;
+}
+.G1{
+    flex: 1 1 40%;
+    background-color: rgb(231, 231, 231);
+    color: rgb(0, 0, 0);
+    margin: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-top-style:solid;
+    border-right-style:solid;
+    border-bottom-style:solid;
+    border-left-style:solid;
+    border-top-color:#1a2537;
+        border-right-color:#1a2537;
+        border-bottom-color:#1a2537;
+        border-left-color:#1a2537;
+    
+}
+.G2{
+    flex: 1 1 40%;
+    background-color: rgb(231, 231, 231);
+    color: rgb(0, 0, 0);
+    margin: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-top-style:solid;
+    border-right-style:solid;
+    border-bottom-style:solid;
+    border-left-style:solid;
+    border-top-color:#1a2537;
+        border-right-color:#1a2537;
+        border-bottom-color:#1a2537;
+        border-left-color:#1a2537;
+}
+.G3{
+    flex: 1 1 40%;
+    background-color: rgb(231, 231, 231);
+    color: rgb(0, 0, 0);
+    margin: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-top-style:solid;
+    border-right-style:solid;
+    border-bottom-style:solid;
+    border-left-style:solid;
+    border-top-color:#1a2537;
+        border-right-color:#1a2537;
+        border-bottom-color:#1a2537;
+        border-left-color:#1a2537;
+}
+.G4{
+    flex: 1 1 40%;
+    background-color: rgb(231, 231, 231);
+    color: rgb(0, 0, 0);
+    margin: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-top-style:solid;
+    border-right-style:solid;
+    border-bottom-style:solid;
+    border-left-style:solid;
+    border-top-color:#1a2537;
+        border-right-color:#1a2537;
+        border-bottom-color:#1a2537;
+        border-left-color:#1a2537;
+}
+.G5{
+    flex: 1 1 40%;
+    background-color: rgb(231, 231, 231);
+    color: rgb(0, 0, 0);
+    margin: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-top-style:solid;
+    border-right-style:solid;
+    border-bottom-style:solid;
+    border-left-style:solid;
+    border-top-color:#1a2537;
+    border-right-color:#1a2537;
+    border-bottom-color:#1a2537;
+    border-left-color:#1a2537;
+}
+.ciudad{
+    width: 160px;
+}
+
+.boton{
+    margin-left:48%;
+    width: 200px;
+    height: 40px;
+    background-color: #1a2537;
+    color: #fff;
+    border-radius: 7px;
+}
+.margen{
+    margin-left:15%;
+    height: 0%;
+}
+.boton1{
+    margin-left:22% ;
+    background-color: #0d853b;
+    color: #fff;
+    border-radius: 7px;
+    width: 130px;
+    margin-top:10%;
+}
+.transporte{
+    
+    width: 160px;
+}
+.empresab{
+    width: 160px;
+}

@@ -1,0 +1,303 @@
+*{
+    margin: 3px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: right;
+    background:transparent;
+    bottom: auto;
+}
+header{
+    background:#1a2537;
+    margin-bottom: 1px;
+    border-radius: 15px;
+}
+.imag{
+    float: left;
+    margin-top: 35px;
+}
+h1{
+    text-align: justify;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    text-align: right;
+    margin-top: 1px;
+    color: #ffffff;
+}
+h3{
+    text-align: relative;
+    margin-top: 1px;
+    color: #1a2537;
+}
+.verticcal{
+    margin-bottom: -100px;
+}
+.fas{
+    position: right;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+form{
+    background:transparent;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90%;
+    margin-top:-675px;
+    margin-left:240px;
+    flex-direction: column;
+    justify-content: left;
+    border-top-width:-10px;
+    border-right-width:20px;
+    border-bottom-width:10px;
+    border-left-width:10px;
+    border:solid 3px;
+    font-size: 15px;
+    position: right;
+    margin-right: 200px;
+}
+input{
+    font-size: 15px;
+    margin: 10px;
+    size: 20px;
+}
+select{
+    font-size: 15px;
+}
+#menu{
+  
+    width: 158px;
+    height: 120%;
+    position: right;
+    background: #1a2537;
+    border-radius: 15px;
+}
+#menu ul{
+    padding-top: 25px;
+
+}
+#menu ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    background:transparent;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 40px;
+    transition:background 6s margin-right 6s margin-left 6s;
+    -webkit-transition:background 6s margin-right 6s margin-left 6s;
+    -moz-transition:background 6s margin-right 6s margin-left 6s;
+    -o-transition:background 6s margin-right 6s margin-left 6s;
+}
+#menu ul a:hover{
+    margin-right: 20px;
+    margin-left: 20px;
+    background: #fff;
+    color: #1a2537;
+    border-radius: 15px;
+}
+#menu ul i:hover{
+    margin-right: 20px;
+    margin-left: 20px;
+    background: #fff;
+    color: #1a2537;
+    border-radius: 15px;
+}
+
+     #ConsulatApss{
+        margin-top: -720px;
+        margin-left: 185px;
+        width: 1130px;
+        text-decoration: none;
+        border: #1a2537;
+        border-radius: 15px;
+        padding: 38px 540px;
+        background-color: #1a2537;
+        color: #fff;
+        cursor: pointer; 
+        display: block;
+        min-width: 200px;
+        box-shadow:0 0 0 0 rgba(#1a2537);
+        animation: pulse 5s infinite;
+        }
+        @keyframes pulse {
+            0%{
+                transform: scale(.99);
+                box-shadow: 0 0 0 0 rgba(256, 256, 256,.1);
+            }
+            70%{
+                transform: scale(1);
+                box-shadow: 0 0 0 0 25px rgba(256, 256, 256, 0);
+            }
+            100%{
+                transform: scale(.99);
+                box-shadow: 0 0 0 0 rgba(256, 256, 256, 0);
+            }
+        }
+    
+#Titulo{
+    text-align: center;
+    font-family: verdana;
+}
+
+#Contend{
+    margin-top: -600px;
+    margin-left: 185px;
+    border: 5px #1a2537;
+    border-radius: 15px;
+    height: 585px;
+    width: 1150px;
+    background-color:#1a2537;
+    }
+    .Procesos{
+        color: #fff;
+    }
+     #A1{
+        margin-top: 100px;
+        margin-left: 60px;
+        height: 405px;
+        width: 180px;
+        border:1px #0b91ff;
+        border-style: solid;
+        background-color: #fff;
+        text-align: center;
+        text-overflow: initial;
+        font-family: verdana;
+        color: #000000
+     }
+     #B2{
+        margin-top: -445px;
+        margin-left: 260px;
+        height: 405px;
+        width: 205px;
+        border:1px #0b91ff;
+        border-style: solid;
+        background-color: #fff;
+        text-align: center;
+        text-overflow: initial;
+        font-family: verdana;
+        color: #000000
+     }
+     #C3{
+        margin-top: -445px;
+        margin-left: 480px;
+        height: 405px;
+        width: 205px;
+        border:1px #0b91ff;
+        border-style: solid;
+        background-color: #fff;
+        text-align: center;
+        text-overflow: initial;
+        font-family: verdana;
+        color: #000000
+     }
+     #D4{
+        margin-top: -445px;
+        margin-left: 705px;
+        height: 405px;
+        width: 205px;
+        border:1px #0b91ff;
+        border-style: solid;
+        background-color: #fff;
+        text-align: center;
+        text-overflow: initial;
+        font-family: verdana;
+        color: #000000
+     }
+     #E5{
+        margin-top: -445px;
+        margin-left: 930px;
+        height: 405px;
+        width: 195px;
+        border:1px #0b91ff;
+        border-style: solid;
+        background-color: #fff;
+        text-align: center;
+        text-overflow: initial;
+        font-family: verdana;
+        color: #000000
+     }
+
+.Categoria{
+    Color: #fff
+}
+ #SmallBox1{
+    margin-top: -500px;
+    margin-left: 60px;
+    height: 30px;
+    width: 180px;
+    border:1px #0b91ff;
+    border-style: solid;
+    background-color: #fff;
+    text-align: center;
+    text-overflow: initial;
+    font-family: verdana;
+    color: #000000
+ }
+ #SmallBox2{
+    margin-top: -68px;
+    margin-left: 270px;
+    height: 30px;
+    width: 195px;
+    border:1px #0b91ff;
+    border-style: solid;
+    background-color: #fff;
+    text-align: center;
+    text-overflow: initial;
+    font-family: verdana;
+    color: #000000
+ }
+ #SmallBox3{
+    margin-top: -68px;
+    margin-left: 480px;
+    height: 30px;
+    width: 205px;
+    border:1px #0b91ff;
+    border-style: solid;
+    background-color: #fff;
+    text-align: center;
+    text-overflow: initial;
+    font-family: verdana;
+    color: #0e0707fd
+ }
+ #SmallBox4{
+    margin-top: -68px;
+    margin-left: 705px;
+    height: 30px;
+    width: 205px;
+    border:1px #0b91ff;
+    border-style: solid;
+    background-color: #fff;
+    text-align: center;
+    text-overflow: initial;
+    font-family: verdana;
+    color: #0e0707fd
+ }
+ #SmallBox5{
+    margin-top: -68px;
+    margin-left: 930px;
+    height: 30px;
+    width: 205px;
+    border:1px #0b91ff;
+    border-style: solid;
+    background-color: #ffffff;
+    text-align: center;
+    text-overflow: initial;
+    font-family: verdana;
+    color: #0e0707fd
+}
+.link{
+    text-decoration: none;
+    font-size: 15px;
+    color: #1a2537;
+}
+
