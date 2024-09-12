@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario De la Empresa</title> 
+    <meta name="viewport" content="width=device-width, user=scatable=yes initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" intergrity="sha384-UHRtZLI+pbxtHCWp1t77BiL4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5Q8lWUEoos/" crossorigin="anonymous">
+    <link rel="styleSheet" href="Datos.css">
+       
+ </head>
+    <body>
+      <h1><img src="Logo.jpg" alt="" height="100px" width="auto"><br>Control De <br> Seguridad Privada</h1>
+        <form class="formulario" action="conexion.php" method="POST">
+            
+
+            <h1>Registro</h1>
+        <div class="navegacion">
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="estilo.html"><i class="fas fa-user icon"></i>
+                            Inicio
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="estilo.html"><i class="fas fa-user icon"></i>
+                            Perfil
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="estilo.html"><i class="fas fa-user icon"></i>
+                            Buscar Empresa
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="estilo.html"><i class="fas fa-user icon"></i>
+                            Consultar aplicaciones
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="estilo.html"><i class="fas fa-user icon"></i>
+                            Consultar contratos
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="estilo.html"><i class="fas fa-user icon"></i>
+                            Realizar encuesta
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+            <div class="contenedor">
+
+                 <div class="input-contenedor">
+                     <i class="fas fa-user icon"></i>
+                    <input type="text" placeholder="Nombre Completo" name="usuario">
+
+                 </div>
+          
+                 <div class="input-contenedor">
+                    <i class="fas fa-address-card icon"></i>
+                 <select name="Tdoc" id="">
+                        <option value="" aria-placeholder="">Seleccion una opcion</option>
+                        <option value="Cedula">C.C</option>
+                        <option value="CedulaE">C.E</option>
+                        <option value="Tarjeta">T.I</option></select>
+                 </div>
+
+                 <div class="input-contenedor">
+                    <i class="fas fa-check icon"></i>
+                 <input type="number" placeholder="Numero De Indentificacion" name="numero">
+
+                 </div>
+
+                 <div class="input-contenedor">
+                    <i class="fas fa-calendar icon"></i>
+                 <input type="date" placeholder="Fecha de expedicion del documento" name="fecha">
+
+                 </div>
+
+                 <div class="input-contenedor">
+                    <i class="fas fa-envelope icon"></i>
+                 <input type="email" placeholder="Correo Electronico" name="email">
+
+                 </div>
+
+                 <div class="input-contenedor">
+                    <i class="fas fa-envelope icon"></i>
+                 <input type="email" placeholder="Confirmar Correo" name="email">
+
+                 </div>
+
+                 <div class="input-contenedor">
+                    <i class="fas fa-key icon"></i>
+                 <input type="password" placeholder="Contraseña" name="pasword">
+
+                 </div>
+
+                 <div class="input-contenedor">
+                    <i class="fas fa-key icon"></i>
+                 <input type="password" placeholder="Confirmar Contraseña" name="pasword">
+
+                 </div>
+
+                 <input type="submit" value="Registrate" class="button">
+
+                 <p>Al registrarte, aceptas nuestras Condiciones de uso y Politica de privacidad.</p>
+                 <p>¿Ya tienes una cuenta?<a class="link" href="iniciar.html">Iniciar Sesion</p>
+
+                <div class="contenedor">
+             </div>
+        </form>
+    </body>
+</html>
