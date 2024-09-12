@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario De la Empresa</title> 
+    <meta name="viewport" content="width=device-width, user=scatable=yes initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" intergrity="sha384-UHRtZLI+pbxtHCWp1t77BiL4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5Q8lWUEoos/" crossorigin="anonymous">
+    <link rel="styleSheet" href="Estilo.css">
+       
+ </head>
+    <body background="Fondo.jpg">
+      <h1><img src="LOGO.png" alt="" height="200px" width="auto"><br>Control De <br> Seguridad Privada</h1>
+        <form class="formulario" action="Bd_Registro.php" method="POST">
+
+            <h1 id="T">Registro</h1>
+            <div class="contenedor">
+
+                 <div class="input-contenedor">
+                     <i class="fas fa-user icon"></i>
+                    <input type="text" placeholder="Nombre Completo" name="usuario">
+
+                 </div>
+          
+                 <div class="input-contenedor">
+                    <i class="fas fa-address-card icon"></i>
+                 <select name="Tdoc" id="">
+                        <option value="" aria-placeholder="">Seleccion una opcion</option>
+                        <option value="Cedula">C.C</option>
+                        <option value="CedulaE">C.E</option>
+                        <option value="Tarjeta">T.I</option></select>
+                 </div>
+
+                 <div class="input-contenedor">
+                    <i class="fas fa-check icon"></i>
+                 <input type="number" placeholder="Numero De Indentificacion" name="numero">
+
+                 </div>
+
+                 <div class="input-contenedor">
+                    <i class="fas fa-calendar icon"></i>
+                 <input type="date" placeholder="Fecha de expedicion del documento" name="fecha">
+
+                 </div>
+
+                 <div class="input-contenedor">
+                    <i class="fas fa-envelope icon"></i>
+                 <input type="email" placeholder="Correo Electronico" name="email">
+
+                 </div>
+
+                 <div class="input-contenedor">
+                    <i class="fas fa-envelope icon"></i>
+                 <input type="email" placeholder="Confirmar Correo" name="email">
+
+                 </div>
+
+                 <div class="input-contenedor">
+                    <i class="fas fa-key icon"></i>
+                 <input type="password" placeholder="Contraseña" name="pasword">
+
+                 </div>
+
+                 <div class="input-contenedor">
+                    <i class="fas fa-key icon"></i>
+                 <input type="password" placeholder="Confirmar Contraseña" name="pasword">
+
+                 </div>
+
+                 <button class="button"><a class="link1" href="Iniciar Sesion.html">Realizar Registro</a></button></div>
+
+                 <p>Al registrarte, aceptas nuestras Condiciones de uso y Politica de privacidad.</p>
+                 <p>¿Ya tienes una cuenta?<a class="link" href="Iniciar Sesion.html">Iniciar Sesion</p>
+
+                <div class="contenedor">
+             </div>
+        </form>
+    </body>
+</html>
